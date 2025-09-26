@@ -1,3 +1,14 @@
-<header1
-    <p class="toto"> > <%- route %></p>
+<header1>
+    <% if (route != 'enseignement') { %>
+        <p class="toto"> 
+            > <%- route %>
+        </p>
+    <% } else { %>
+        <div>
+            <button class="button" onclick="window.location.href='/teaching/javascript'">javascript</button>
+            <button class="button" onclick="window.location.href='/teaching/php'">php</button>
+            <button class="button" onclick="window.location.href='/teaching/node'">node</button>
+            <button class="button" onclick="window.location.href='/teaching/node/express'">express</button>
+        </div>
+    <% } %>
 </header1>

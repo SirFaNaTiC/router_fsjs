@@ -30,4 +30,8 @@ app.use('/',homeRouter);
 app.use('/research',researchRouter);
 app.use('/teaching',teachingRouter);
 
+app.get('/*path', (req, res) => {
+    res.redirect('/')
+});
+
 module.exports = app;

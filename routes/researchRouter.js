@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/',(req,res)=>{
-    res.send('<h1>Finders Keepers</h1>');
+    res.render('pages/research', {route: 'research'});
 });
 
 module.exports = router;
