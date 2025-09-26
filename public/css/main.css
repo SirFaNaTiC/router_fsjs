@@ -1,0 +1,102 @@
+/* Avant EJS */
+/* body{
+    background: black;
+    color: limegreen;
+    text-align: center;
+} */
+
+/* EJS */
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(131, 128, 128);
+    color: white;
+    padding: 16px 32px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(131, 128, 128);
+    color: white;
+}
+
+
+header1 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(190, 184, 184);
+    color: white;
+    padding: 16px 32px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+texte{
+    font-size: 20px;
+    color: black;
+}
+
+#content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    text-align: left;
+}
+
+#content .scrollable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.button {
+    background: #989898;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background: #7a7a7a;
+    color: #e0e0e0;
+}
+
+.toto{
+    color: black;
+    padding-right: 90%;
+    align-self: left;
+}
+.title{
+    padding-right: 65%;
+    align-self: left;
+}
